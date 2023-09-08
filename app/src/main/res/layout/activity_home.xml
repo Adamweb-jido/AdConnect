@@ -214,14 +214,15 @@
                                   android:layout_width="40dp"
                                   android:layout_height="50dp"
                                   android:layout_marginStart="10dp"
-                                  android:src="@drawable/wallecard"/>
+                                  android:src="@drawable/wallet"/>
 
                           </androidx.cardview.widget.CardView>
 
                           <TextView
                               android:layout_width="match_parent"
                               android:layout_height="wrap_content"
-                              android:text="Fund Wallet"
+                              android:text="Summary"
+                              android:textAlignment="center"
                               android:textColor="@color/white"
                               android:textSize="15sp"
                               android:textStyle="bold|bold" />
@@ -243,14 +244,15 @@
                                   android:layout_width="40dp"
                                   android:layout_height="50dp"
                                   android:layout_marginStart="10dp"
-                                  android:src="@drawable/wallecard"/>
+                                  android:src="@drawable/location"/>
 
                           </androidx.cardview.widget.CardView>
 
                           <TextView
                               android:layout_width="match_parent"
                               android:layout_height="wrap_content"
-                              android:text="Fund Wallet"
+                              android:text="Reach Us"
+                              android:textAlignment="center"
                               android:textColor="@color/white"
                               android:textSize="15sp"
                               android:textStyle="bold|bold" />
@@ -272,14 +274,15 @@
                                   android:layout_width="40dp"
                                   android:layout_height="50dp"
                                   android:layout_marginStart="10dp"
-                                  android:src="@drawable/wallecard"/>
+                                  android:src="@drawable/shareapp"/>
 
                           </androidx.cardview.widget.CardView>
 
                           <TextView
                               android:layout_width="match_parent"
                               android:layout_height="wrap_content"
-                              android:text="Fund Wallet"
+                              android:text="Share App"
+                              android:textAlignment="center"
                               android:textColor="@color/white"
                               android:textSize="15sp"
                               android:textStyle="bold|bold" />
@@ -301,14 +304,15 @@
                                   android:layout_width="40dp"
                                   android:layout_height="50dp"
                                   android:layout_marginStart="10dp"
-                                  android:src="@drawable/wallecard"/>
+                                  android:src="@drawable/contact"/>
 
                           </androidx.cardview.widget.CardView>
 
                           <TextView
                               android:layout_width="match_parent"
                               android:layout_height="wrap_content"
-                              android:text="Fund Wallet"
+                              android:text="Contact Us"
+                              android:textAlignment="center"
                               android:textColor="@color/white"
                               android:textSize="15sp"
                               android:textStyle="bold|bold" />
@@ -330,48 +334,18 @@
                                   android:layout_width="40dp"
                                   android:layout_height="50dp"
                                   android:layout_marginStart="10dp"
-                                  android:src="@drawable/wallecard"/>
+                                  android:src="@drawable/settings"/>
 
                           </androidx.cardview.widget.CardView>
 
                           <TextView
                               android:layout_width="match_parent"
                               android:layout_height="wrap_content"
-                              android:text="Fund Wallet"
+                              android:text="Settings"
                               android:textColor="@color/white"
                               android:textSize="15sp"
                               android:textStyle="bold|bold" />
                       </LinearLayout>
-                      <LinearLayout
-                          android:layout_width="wrap_content"
-                          android:layout_height="match_parent"
-                          android:layout_marginEnd="5dp"
-                          android:orientation="vertical">
-
-                          <androidx.cardview.widget.CardView
-                              android:layout_width="60dp"
-                              android:layout_height="50dp"
-                              android:layout_margin="10dp"
-                              app:cardCornerRadius="10dp"
-                              app:cardBackgroundColor="#020D4A">
-
-                              <ImageView
-                                  android:layout_width="40dp"
-                                  android:layout_height="50dp"
-                                  android:layout_marginStart="10dp"
-                                  android:src="@drawable/wallecard"/>
-
-                          </androidx.cardview.widget.CardView>
-
-                          <TextView
-                              android:layout_width="match_parent"
-                              android:layout_height="wrap_content"
-                              android:text="Fund Wallet"
-                              android:textColor="@color/white"
-                              android:textSize="15sp"
-                              android:textStyle="bold|bold" />
-                      </LinearLayout>
-
 
                   </LinearLayout>
               </HorizontalScrollView>
@@ -421,6 +395,22 @@
                       app:cardElevation="10dp"
                       android:layout_margin="12dp">
 
+                      <ImageView
+                          android:layout_width="40dp"
+                          android:layout_height="50dp"
+                          android:layout_gravity="center"
+                          android:layout_marginTop="-10dp"
+                          android:src="@drawable/data"/>
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:layout_marginTop="25dp"
+                          android:text="Buy Data"
+                          android:textColor="@color/white"
+                          android:textStyle="bold|bold" />
+
                   </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="80dp"
@@ -430,14 +420,21 @@
                     app:cardElevation="12dp"
                     android:layout_margin="10dp">
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="@color/black"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp"
-                    android:layout_margin="12dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -447,6 +444,47 @@
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:cardBackgroundColor="@color/black"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -463,6 +501,22 @@
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
 
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
+
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="80dp"
@@ -472,14 +526,21 @@
                     app:cardElevation="12dp"
                     android:layout_margin="10dp">
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="@color/black"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp"
-                    android:layout_margin="12dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -489,6 +550,47 @@
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:cardBackgroundColor="@color/black"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
@@ -505,6 +607,22 @@
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
 
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
+
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
                     android:layout_width="80dp"
@@ -514,14 +632,21 @@
                     app:cardElevation="12dp"
                     android:layout_margin="10dp">
 
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="@color/black"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="10dp"
-                    android:layout_margin="12dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
@@ -531,6 +656,47 @@
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:cardBackgroundColor="@color/black"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    android:layout_margin="12dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="-10dp"
+                        android:src="@drawable/data"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="Buy Data"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|bold" />
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
