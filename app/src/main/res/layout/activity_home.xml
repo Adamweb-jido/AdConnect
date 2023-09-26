@@ -544,9 +544,9 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                   <androidx.cardview.widget.CardView
-                      android:layout_width="80dp"
-                      android:layout_height="80dp"
-                      app:cardBackgroundColor="#090987"
+                      android:layout_width="70dp"
+                      android:layout_height="70dp"
+                      app:cardBackgroundColor="#0D1857"
                       app:cardCornerRadius="10dp"
                       app:cardElevation="10dp"
                       android:layout_margin="12dp">
@@ -569,9 +569,9 @@
 
                   </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#500505"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="12dp"
                     android:layout_margin="10dp">
@@ -594,9 +594,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#454912"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -619,9 +619,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#175750"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -650,9 +650,9 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#175750"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -675,9 +675,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#090987"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="12dp"
                     android:layout_margin="10dp">
@@ -700,9 +700,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#500505"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -726,9 +726,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#454912"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -757,9 +757,9 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#454912"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -783,9 +783,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#175750"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="12dp"
                     android:layout_margin="10dp">
@@ -808,9 +808,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#090987"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
@@ -833,9 +833,9 @@
 
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    app:cardBackgroundColor="#500505"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:cardBackgroundColor="#0D1857"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     android:layout_margin="12dp">
