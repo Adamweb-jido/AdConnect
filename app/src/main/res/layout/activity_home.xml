@@ -291,6 +291,7 @@
                           android:layout_width="wrap_content"
                           android:layout_height="match_parent"
                           android:layout_marginEnd="5dp"
+                          as
                           android:orientation="vertical">
 
                           <androidx.cardview.widget.CardView
